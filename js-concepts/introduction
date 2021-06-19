@@ -1,0 +1,29 @@
+This part is to answer basic JS questions.
+1. What are the different data types present in javascript?
+   String           null  (type of obj)              object(this includes array)
+   number           undefined                         symbols
+   boolean          Nan
+
+2. Explain Hoisting in javascript.
+   Hoisting is a concept used to describe how JS engine hoists or brings 
+   all the varibles and functions in our code to the top stack before execution starts
+
+3. Difference between “==” and “===” operators.
+   == compares value only
+   === compares value and reference/ correction: types
+4. Explain Implicit Type Coercion in javascript.
+   So js is dynamically typed it means data types are assigned to values at run time 
+   so for example if we declare a variable it can hold any data type 
+   //correction Implicit type coercion in javascript is automatic conversion of value from one data type to another. 
+   //It takes place when the operands of an expression are of different data types.
+5. Is javascript a statically typed or a dynamically typed language?
+   Dynamically typed 
+6. What is NaN property in JavaScript?
+   object // correction: not a number
+7. Explain passed by value and passed by reference.
+8. What is an Immediately Invoked Function in javascript?
+9. Explain Higher Order Functions in javascript.
+10. Explain “this” keyword.
+    this repesents the current scope it can be local or global 
+    for example in a global context js global execution creates window and this 
+     when we do this. will give us access to all windows objects.
