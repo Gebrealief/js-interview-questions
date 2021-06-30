@@ -19,11 +19,43 @@ This part is to answer basic JS questions.
 5. Is javascript a statically typed or a dynamically typed language?
    Dynamically typed 
 6. What is NaN property in JavaScript?
-   object // correction: not a number
+   object
+   // correction: not a number
 7. Explain passed by value and passed by reference.
+   In JavaScript, primitive data types are passed by value and non-primitive data types are passed by reference.
 8. What is an Immediately Invoked Function in javascript?
+   An Immediately Invoked Function ( known as IIFE and pronounced as IIFY) is a function 
+   that runs as soon as it is defined.
 9. Explain Higher Order Functions in javascript.
+   Functions that operate on other functions, either by taking them as arguments or by returning them,
+    are called higher-order functions.
+    Higher order functions are a result of functions being first-class citizens in javascript.
 10. Explain “this” keyword.
     this repesents the current scope it can be local or global 
     for example in a global context js global execution creates window and this 
      when we do this. will give us access to all windows objects.
+     //correction The “this” keyword refers to the object that the function is a property of.
+     The value of “this” keyword will always depend on the object that is invoking the function.
+
+11. Explain call(), apply() and, bind() methods.
+12. What is Currying in javascript?
+13. Explain Scope and Scope Chain in javascript.
+14. Explain Closures in JavaScript.
+15. What are object prototypes?
+16. What are callbacks?
+17. What is memoization?
+18. What is recursion in a programming language?
+19. What is the use of a constructor function in javascript?
+20. What is DOM?
+
+
+21. What are arrow functions?
+22. Differences between declaring variables using var, let and const.
+23. What is the rest parameter and spread operator?
+24. What is the use of promises in javascript?
+25. What are classes in javascript?
+26. What are generator functions?
+27. Explain WeakSet in javascript.
+28. Explain WeakMap in javascript.
+29. What is Object Destructuring?
+30. What is a Temporal Dead Zone?
